@@ -1,0 +1,65 @@
+* {
+    color: rgb(143, 10, 10);
+}
+
+p, span {
+    color: rgb(207, 20, 167);
+    width: 300px;
+}
+
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  padding: 10px 91px 5px 60px;
+  margin-top: 40px;
+  margin-bottom: 64px;
+  margin-left: 5px;
+  margin-right: 44px;
+  border: 1px solid rgb(7, 13, 11);
+  color: blue;
+  background-color: black;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: black;
+   
+  }
+  
+  a {display: block;
+    width: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 17px 32px;
+    background-color: aqua;
+    color: blue;
+
+  }
+ 
+  
+  .icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Step 2: Reference Individual Icons */
+  .login::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+  }
+  
+  /* Note: Make sure to include the correct weight and unicode value for the icon */
+  .tps::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f1ea";
+ }
